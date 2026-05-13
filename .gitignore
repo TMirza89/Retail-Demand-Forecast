@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Data — too large for GitHub
+data/sales_train_validation.csv
+data/calendar.csv
+data/sell_prices.csv
+
+# Keep processed data and plots
+!data/features.csv
+!data/*.png
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Models — too large for GitHub
+models/*.pkl
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+*.log
